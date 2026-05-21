@@ -1,11 +1,10 @@
 package org.example;
 
 public class Person {
-    String name;
-    int age;
+//    String name;
+//    int age;
 
-    public void printInfo(){
-        System.out.println("სახელი: " + name);
-        System.out.println("ასაკი: " + age);
+    public void printInfo(String name, int age){
+        System.out.println("სახელი: " + name  + ", ასაკი=" + age);
     }
 }
